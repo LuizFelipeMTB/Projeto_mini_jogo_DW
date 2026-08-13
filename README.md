@@ -8,7 +8,7 @@
 ___
 
 
- |   Ambiente (IDE) &nbsp;  <img width="24" height="24" alt="app_registration_62dp_E3E3E3_FILL0_wght400_GRAD0_opsz48" src="https://github.com/user-attachments/assets/f95c4dd3-07ca-4699-adf6-279127a3b43a" width="30" align="center" style="margin-left: 50px;" />|
+ |   Linguagens Utilizadas &nbsp;  <img width="24" height="24" alt="app_registration_62dp_E3E3E3_FILL0_wght400_GRAD0_opsz48" src="https://github.com/user-attachments/assets/f95c4dd3-07ca-4699-adf6-279127a3b43a" width="30" align="center" style="margin-left: 50px;" />|
 | :---: |
 | <div align="center">  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width=40> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width=40>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width=40>  </div> |
 
