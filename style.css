@@ -1,0 +1,96 @@
+/* Estilo geral */
+body {
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #000000;
+
+  background: 
+ 
+  #b3c0e4 40%,    
+  
+
+
+}
+
+header {
+  padding: 20px;
+}
+
+.logo {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo.clickable {
+  cursor: pointer;
+}
+
+h1, h2 {
+  margin: 20px 0;
+}
+
+/* Página inicial */
+.home-content {
+  margin-top: 50px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #8d2626;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 17px;
+  font-size: 25px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #000000;
+}
+
+/* Página do jogo */
+.choices {
+  margin: 20px 0;
+}
+
+.choices button {
+  background: transparent;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.choices img {
+  height: 100px;
+  transition: transform 0.2s;
+}
+
+.choices img:hover {
+  transform: scale(1.1);
+}
+
+.status {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+/* Ranking */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+th {
+  background: rgba(0, 0, 0, 0.3);
+}

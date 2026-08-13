@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+      <link rel="icon" type="image/png" href="/img/icone.ico">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PPT - Jogo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="game">
+  <header>
+    <!-- Logo que volta para a página inicial -->
+    <a href="index.html">
+      <img src="img/logo2.0.png" alt="Logo" class="logo clickable">
+    </a>
+  </header>
+
+  <main>
+    <h1>Pedra, Papel e Tesoura</h1>
+
+    <!-- Opções de jogada -->
+    <section class="choices">
+      <button onclick="play('pedra')"><img src="img/pedra.png" alt="Pedra"></button>
+      <button onclick="play('papel')"><img src="img/papel.png" alt="Papel"></button>
+      <button onclick="play('tesoura')"><img src="img/tesoura.png" alt="Tesoura"></button>
+    </section>
+
+    <!-- Resultado atual -->
+    <section class="status">
+      <h2>Resultado Atual</h2>
+      <p id="result">Faça sua jogada!</p>
+      <p id="score">Vitórias: 0 | Derrotas: 0 | Empates: 0</p>
+    </section>
+
+    <!-- Ranking -->
+    <section class="ranking">
+      <h2>Ranking de Jogadas</h2>
+      <table id="rankingTable">
+        <thead>
+          <tr>
+            <th>Jogador</th>
+            <th>Computador</th>
+            <th>Resultado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- As jogadas serão inseridas aqui -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
